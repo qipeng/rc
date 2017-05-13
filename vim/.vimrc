@@ -41,6 +41,9 @@ Plugin 'user/L9', {'name': 'newL9'}
 
 Plugin 'Shougo/neocomplete'
 " Plugin 'Valloric/YouCompleteMe'
+"
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -69,6 +72,9 @@ colorscheme lanox
 " Neocomplete stuff
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_auto_close_preview = 1
+
+" Enable airline
+set laststatus=2
 
 " Remove whitespace at end of lines when writing to file
 autocmd BufWritePre * :%s/\s\+$//e
