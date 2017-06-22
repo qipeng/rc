@@ -36,8 +36,6 @@ Plugin 'kien/ctrlp.vim'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Avoid a name conflict with L9
-Plugin 'user/L9', {'name': 'newL9'}
 
 Plugin 'Shougo/neocomplete'
 " Plugin 'Valloric/YouCompleteMe'
