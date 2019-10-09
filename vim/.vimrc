@@ -65,7 +65,7 @@ set wildmode=longest,list,full
 " Theme!
 set background=dark
 syntax enable
-set synmaxcol=200
+set synmaxcol=300
 colorscheme lanox
 
 " Neocomplete stuff
