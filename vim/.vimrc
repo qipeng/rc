@@ -37,7 +37,10 @@ Plugin 'kien/ctrlp.vim'
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
-Plugin 'Shougo/neocomplete'
+" Plugin 'Shougo/neocomplete'
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'roxma/nvim-yarp'
+Plugin 'roxma/vim-hug-neovim-rpc'
 " Plugin 'Valloric/YouCompleteMe'
 "
 Plugin 'vim-airline/vim-airline'
@@ -68,9 +71,8 @@ syntax enable
 set synmaxcol=300
 colorscheme lanox
 
-" Neocomplete stuff
-let g:neocomplete#enable_at_startup = 1
-let g:neocomplete#enable_auto_close_preview = 1
+" Deoplete stuff
+let g:deoplete#enable_at_startup = 1
 
 " Enable airline
 set laststatus=2
